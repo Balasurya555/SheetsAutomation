@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheetAutomation.ai | Professional Sheets AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root { color-scheme: light; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F0F3FA;
+            color: #395886;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .saas-card {
+            background: #FFFFFF;
+            border: 1px solid #D5DEEF;
+            box-shadow: 0 4px 6px -1px rgba(57, 88, 134, 0.05), 0 2px 4px -1px rgba(57, 88, 134, 0.03);
+            border-radius: 0.75rem;
+        }
+        .saas-card:hover {
+            box-shadow: 0 10px 15px -3px rgba(57, 88, 134, 0.1), 0 4px 6px -2px rgba(57, 88, 134, 0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar { width: 5px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: #F0F3FA; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #D5DEEF; border-radius: 10px; }
+        .transition-all-300 { transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "@netlify/functions": "https://esm.sh/@netlify/functions@^5.1.2"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
